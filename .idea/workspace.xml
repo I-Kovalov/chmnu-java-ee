@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="jakartaee-app:war exploded" />
+      <artifact name="MyApp:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43545fdc-1387-41bf-97a1-55f205e51d38" name="Changes" comment="" />
+    <list default="true" id="43545fdc-1387-41bf-97a1-55f205e51d38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +48,8 @@
   "keyToString": {
     "GlassFish Server.GlassFish 7.0.16.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "LR6-8",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/sfase3/Documents/WorkingDir/chmnu-java-ee",
     "node.js.detected.package.eslint": "true",
@@ -48,14 +57,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="GlassFish 7.0.16" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 7.0.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17 (2)" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="jakartaee-app:war exploded">
+        <artifact name="MyApp:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -117,10 +128,10 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="jakartaee-app:war exploded" />
+          <artifact name="MyApp:war exploded" />
         </option>
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -141,7 +152,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729168076168</updated>
       <workItem from="1729168077215" duration="3553000" />
-      <workItem from="1730942062774" duration="1154000" />
+      <workItem from="1730942062774" duration="1196000" />
+      <workItem from="1730944623135" duration="1899000" />
     </task>
     <servers />
   </component>
